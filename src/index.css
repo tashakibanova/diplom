@@ -1,0 +1,42 @@
+:root {
+  --primary: rgba(255, 168, 0, 1);
+  --text-primary: rgba(41, 41, 41, 1);
+  --text-light: rgba(229, 229, 229, 1);
+  --text-muted: rgba(146, 143, 148, 1);
+  --bg-dark: rgba(45, 43, 47, 1);
+  --bg-overlay: rgba(41, 41, 41, 0.8);
+  --bg-light-overlay: rgba(229, 229, 229, 0.2);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Base styles */
+.page {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
