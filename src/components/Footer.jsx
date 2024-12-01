@@ -1,4 +1,5 @@
 import * as React from 'react';
+import BrandLogos from './BrandLogos';
 
 import './styles/Footer.css';
 
@@ -45,16 +46,10 @@ export default function Footer() {
           </form>
 
           <h3 className="social-title">Подписывайтесь на нас</h3>
-          <div className="social-icons">
-            {[15, 16, 17, 18, 19].map((num) => (
-              <img 
-                key={num}
-                src={`http://b.io/ext_${num}-`}
-                alt=""
-                loading="lazy"
-              />
-            ))}
-          </div>
+
+            
+            <BrandLogos />
+            
         </div>
       </div>
 

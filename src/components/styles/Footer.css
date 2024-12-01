@@ -66,8 +66,20 @@
     font-size: 24px;
     text-transform: uppercase;
     background: transparent;
-    color: #fff;
+    color: var(--text-light);
     cursor: pointer;
+  }
+
+  .newsletter-button:hover {
+    border: 1px solid var(--primary);
+    color: var(--text-primary);
+    background: var(--primary);
+  }
+
+  .newsletter-button:active {
+    border: 1px solid white;
+    color: var(--text-primary);
+    background: var(--text-light);
   }
   
   .social {
@@ -77,14 +89,13 @@
   .social-title {
     font-size: 30px;
     font-weight: 500;
-    margin-bottom: 30px;
   }
   
-  .social-icons {
-    display: flex;
-    gap: 48px;
+  .brand-logo {
+    cursor: pointer;
   }
-  
+
+
   .footer-divider {
     height: 1px;
     background: var(--text-light);

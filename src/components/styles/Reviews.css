@@ -1,25 +1,31 @@
 /* Reviews section */
 .reviews {
-    margin: 152px auto;
-    max-width: 1330px;
+    margin: 150px auto;
+    max-width: 1407px;
     width: 100%;
   }
   
   .review-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 60px;
     margin-bottom: 134px;
   }
   
   .review-card {
     display: flex;
     gap: 20px;
+    width: 100%;
   }
   
   .review-image {
-    flex: 0 0 34%;
+    flex: 0 0 40%;
   }
+
+  .review-image img {
+    width: 100%; /* Обеспечить адаптивность изображения */
+    height: auto; /* Сохранить пропорции */
+}
   
   .review-content {
     flex: 1;
@@ -35,6 +41,7 @@
     color: var(--text-muted);
     font-size: 18px;
     line-height: 1.5;
+    font-style: italic; 
   }
   
   .review-dots {

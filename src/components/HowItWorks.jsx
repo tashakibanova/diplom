@@ -5,7 +5,7 @@ import'./styles/HowItWorks.css';
 const features = [
   {
     icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/65b788cf96dcec5d0aaa868606add8c0bce8e9c143dd47852351924a3f122c0c?placeholderIfAbsent=true&apiKey=02efe553601046acb8eaf6df5f0f3842",
-    title: "Удобный заказ\nна сайте"
+    title: "Удобный заказ на сайте"
   },
   {
     icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/a36bfb3e7d1085f5c73c3103e0631863e7301179ea08b9c006951a2ad5dc7b82?placeholderIfAbsent=true&apiKey=02efe553601046acb8eaf6df5f0f3842",
@@ -13,7 +13,7 @@ const features = [
   },
   {
     icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/872e0981a532f4201b370c7c26cb23722d5eedbe41e081bffd3fb4f04869d5a7?placeholderIfAbsent=true&apiKey=02efe553601046acb8eaf6df5f0f3842",
-    title: "Огромный выбор\nнаправлений"
+    title: "Огромный выбор направлений"
   }
 ];
 

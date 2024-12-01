@@ -34,17 +34,32 @@
   }
   
   .learn-more {
-    border: 1px solid #fff;
+    border: 1px solid white;
     border-radius: 5px;
     padding: 16px 70px;
     font-size: 24px;
     font-weight: 700;
+    color: var(--text-light); /* Белый цвет текста */
+    background-color: transparent; /* Прозрачный фон */
+    cursor: pointer; /* Указатель при наведении */
   }
+
+  .learn-more:hover {
+    background-color: var(--primary); /* Желтый фон при наведении */
+    color: black; /* Черный текст при наведении */
+    border: none; /* Убираем границу */
+}
+
+.learn-more:active {
+    background-color: white; /* Белый фон при нажатии */
+    color: black; /* Черный текст при нажатии */
+    border: none; 
+}
   
   .features {
     display: flex;
     justify-content: space-between;
-    max-width: 908px;
+    max-width: 1200px;
     margin: 0 auto;
   }
   
