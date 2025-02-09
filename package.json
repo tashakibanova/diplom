@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://tashakibanova.github.io/diplom",
+  "homepage": "https://github.com/tashakibanova/diplom",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -13,11 +13,8 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "@babel/core": "^7.26.7",
-    "@babel/preset-env": "^7.26.7",
     "@reduxjs/toolkit": "^2.2.7",
     "axios": "^1.7.7",
-    "core-js": "^3.40.0",
     "nanoid": "^5.0.7",
     "prop-types": "^15.8.1",
     "react": "^18.3.1",
@@ -36,7 +33,7 @@
     "eslint": "^9.9.0",
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "eslint-plugin-react-refresh": "^0.4.9",
-    "gh-pages": "^6.3.0",
+    "gh-pages": "^6.1.1",
     "globals": "^15.9.0",
     "react-router-hash-link": "^2.4.3",
     "typescript": "^5.5.3",
